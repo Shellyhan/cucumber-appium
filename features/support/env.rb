@@ -1,6 +1,5 @@
 require "yaml"
 require "rspec"
-require "sauce_whisk"
 require "appium_lib"
 
 #cloud-based device farm credentials:

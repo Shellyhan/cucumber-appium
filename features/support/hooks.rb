@@ -1,8 +1,3 @@
-require "yaml"
-require "rspec"
-require "sauce_whisk"
-require "appium_lib"
-
 caps1 = @caps_android_bs
 caps2 = @caps_ios_sl
 
