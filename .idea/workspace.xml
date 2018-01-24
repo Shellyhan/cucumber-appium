@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2de5e2fb-c678-4f23-ad5e-d77065b6d8fb" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/android_bs.feature" afterPath="$PROJECT_DIR$/cucumberRuby/features/android_bs.feature" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/ios_sl.feature" afterPath="$PROJECT_DIR$/cucumberRuby/features/ios_sl.feature" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/step_definitions/android_bs_steps.rb" afterPath="$PROJECT_DIR$/cucumberRuby/features/step_definitions/android_bs_steps.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/step_definitions/ios_sl_steps.rb" afterPath="$PROJECT_DIR$/cucumberRuby/features/step_definitions/ios_sl_steps.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/cucumberRuby/features/support/env.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/cucumberRuby/features/support/hooks.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="2de5e2fb-c678-4f23-ad5e-d77065b6d8fb" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +26,7 @@
         <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/cucumberRuby/Dockerfile" />
+        <option value="$PROJECT_DIR$/cucumberRuby/README.md" />
       </list>
     </option>
   </component>
@@ -74,12 +67,6 @@
               <item name="cucumber-appium" type="462c0819:PsiDirectoryNode" />
               <item name="cucumberRuby" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cucumber-appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumber-appium" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberRuby" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -97,6 +84,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cucumberRuby" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cucumberRuby" />
     </key>
@@ -210,7 +200,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -275,6 +264,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cucumberRuby/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
