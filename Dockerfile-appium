@@ -1,0 +1,35 @@
+FROM centos:7
+
+USER root
+
+RUN mkdir -p /deployments
+
+# JAVA_APP_DIR is used by run-java.sh for finding the binaries
+ENV JAVA_APP_DIR=/deployments \
+    JAVA_MAJOR_VERSION=8
+
+RUN yum install -y \
+    java-1.8.0-openjdk  \
+    java-1.8.0-openjdk-devel \
+    && echo "securerandom.source=file:/dev/urandom" >> /usr/lib/jvm/java/jre/lib/security/java.security
+
+
+ENV JAVA_HOME /etc/alternatives/jre
+ENV PATH "${JAVA_HOME}/bin:${PATH}"
+ENV APPIUM_VERSION 1.7.1
+
+RUN yum install -y  \
+    update \
+    epel-release  \
+    nodejs  \
+    npm  \
+    make  \
+    gcc-c++  \
+    which
+RUN ln -s /usr/bin/node /usr/bin/nodejs
+
+# Install appium:
+RUN npm install -g appium@${APPIUM_VERSION}
+RUN npm cache clean
+CMD [ "appium" ]
+
