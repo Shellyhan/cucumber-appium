@@ -3,11 +3,11 @@ require "rspec"
 require "appium_lib"
 
 #cloud-based device farm credentials:
-@accessKey_sl = ""
-@userName_sl = ""
+# @accessKey_sl = ""
+# @userName_sl = ""
 
-@accessKey_bs = ""
-@userName_bs = ""
+# @accessKey_bs = ""
+# @userName_bs = ""
 
 # configure android device from browser stack:
 def caps_android_bs
@@ -15,7 +15,7 @@ def caps_android_bs
       # for browser Stack - android:
       device: "Google Pixel",
       platformName: "Android",
-      app: "bs://1d96cd84418fd811c84d3a35af9f6cb89467c18c",
+      app: "bs://92e12f5436cab8ff81affed5d77c98624d6d29c2",
       newCommandTimeout: "3600"
   },
     appium_lib: {
