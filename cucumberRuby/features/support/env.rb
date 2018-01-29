@@ -15,7 +15,7 @@ def caps_android_bs
       # for browser Stack - android:
       device: "Google Pixel",
       platformName: "Android",
-      app: "bs://92e12f5436cab8ff81affed5d77c98624d6d29c2",
+      app: "bs://222d912611650a5f7be543a9764512df7aa262cf",
       newCommandTimeout: "3600"
   },
     appium_lib: {
